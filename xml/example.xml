@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://example.com/ns1"
+      xmlns:ns2="http://example.com/ns2">
+
+    <element1>Hello from ns1</element1>
+    <ns2:element2>Hello from ns2</ns2:element2>
+</root>

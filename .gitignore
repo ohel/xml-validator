@@ -2,3 +2,6 @@
 out
 xsd/*.xsd
 xml/*.xml
+!xsd/ns1.xsd
+!xsd/ns2.xsd
+!xml/example.xml

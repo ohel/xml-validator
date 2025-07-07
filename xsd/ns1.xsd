@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/ns1"
+           xmlns="http://example.com/ns1"
+           xmlns:ns2="http://example.com/ns2"
+           elementFormDefault="qualified">
+
+    <xs:import namespace="http://example.com/ns2" schemaLocation="ns2.xsd"/>
+
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="element1" type="xs:string"/>
+                <xs:element ref="ns2:element2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
